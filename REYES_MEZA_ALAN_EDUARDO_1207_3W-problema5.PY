@@ -1,6 +1,6 @@
 print(" ")  # ESPACIO PARA AGREGAR LA INFO DE PRACTICA Y PROGRAMADOR
 print("# REYES MEZA ALAN EDUARDO : EXAMEN PRIMER PARCIAL act5 # NOMBRE DE ACTIVIDAD Y DATOS DEL PROGRAMADOR")
-print(" ")
+print(" ") #espacio
 
 def obtener_valores(): #ingresar valores 
     
@@ -16,12 +16,12 @@ def sumar(val1, val2): #suma los valores
 
 val1, val2 = obtener_valores() #obtener val1 y val2
 
-print(" ")
+print(" ") # espacio
 print("El menor valor es:", menor_valor(val1, val2)) # saca el menor valor 
 
-print(" ")
+print(" ") #espacio
 print("La suma es:", sumar(val1, val2)) # suma de los 2 valores 
-print(" ")
+print(" ") # espacio
 
 
 
