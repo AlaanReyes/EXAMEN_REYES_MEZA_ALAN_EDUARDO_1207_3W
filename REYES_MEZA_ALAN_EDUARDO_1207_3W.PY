@@ -7,7 +7,7 @@ apellido_paterno = input("¿Cuál es tu apellido paterno?: ")  # solicita tu ape
 apellido_materno = input("¿Cuál es tu apellido materno?: ")  # solicita tu apellido materno
 nombre = input("¿Cuál es tu nombre?: ")  # solicita tu nombre 
 
-print(" ")
+print(" ") #espacio
 
 # Desplegar cada una de las variables que conforman el nombre
 print("Apellido Paterno:", apellido_paterno)  # despliega tu apellido paterno
@@ -17,12 +17,12 @@ print("Nombre:", nombre)  # despliega tu nombre
 # Desplegar el nombre comenzando por el apellido paterno
 nombre_completo = f"{apellido_paterno} {apellido_materno} {nombre}"  # nombre completo
 
-print(" ")
+print(" ") # espacio
 
 # Mostrar el nombre completo
 print("Nombre completo:", nombre_completo) #muestra tu nombre completo
 
-print(" ")
+print(" ") #espacio
 
 # Convertir a mayúsculas
 nombre_completo_mayusculas = nombre_completo.upper()  # convierte una cadena a MAYÚSCULAS
