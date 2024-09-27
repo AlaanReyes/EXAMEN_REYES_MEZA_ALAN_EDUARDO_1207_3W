@@ -7,12 +7,12 @@ A = float(input("Ingrese el primer valor (A): ")) # leer valor de A
 B = float(input("Ingrese el segundo valor (B): ")) # leer valor de B
 C = float(input("Ingrese el tercer valor (C): ")) # leer valor de C
 
-print(" ")
+print(" ") #espacio 
 
 if A == B or B == C or A == C: # Verificar que los valores sean distintos
     print("AVISO: Los valores ingresados deben ser distintos.")
 else:
-    print(" ")
+    print(" ") #espacio
     mayor = max(A, B, C) # sacar la letra mayor
     menor = min(A, B, C) # sacar la letra menor
 
